@@ -1,7 +1,22 @@
 # Twitter
 
-A new Flutter project.
+Twitter Mobile App using Flutter:
+  * Trending Topics in India 
+  * See User's timeline
+  * Check recent tweets of User upto 200
+  
 
+API used:
+  * For getting user timeline: 
+            https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=$query&count=200
+            
+  * Treding topics in India : 
+          https://api.twitter.com/1.1/trends/place.json?id=23424848
+          
+For More Information and API's refer:
+          https://developer.twitter.com/en/docs/twitter-api/v1
+          
+          
 ## Getting Started
 
 This project is a starting point for a Flutter application.
